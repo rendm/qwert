@@ -1,0 +1,30 @@
+
+
+ul,li{
+    list-style: none;
+}
+#index{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column
+}
+#index .content{
+    flex: 1;
+}
+.nav{
+    height:45px;
+    display: flex;
+    text-align: center;
+}
+.nav li{
+    flex:1;
+   
+}
+.nav li a{
+    display: flex;
+    flex-direction: column;
+}
+.tab-active{
+    color:#fc4141;
+}

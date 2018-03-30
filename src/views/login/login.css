@@ -1,0 +1,22 @@
+#login{
+
+}
+p{
+    padding: 10px;
+    margin: 10px 0;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    width: 78%;
+}
+button{
+    display: block;
+    background: #fc4141;
+    padding: 10px 30px;
+    outline: none;
+    color:#fff;
+    margin: 10px auto;
+    
+    border:1px solid #eee;
+}

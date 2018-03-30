@@ -1,0 +1,36 @@
+.goods-items{
+    float: left;
+    width: 49%;
+    height:3.8rem;
+    border-bottom:2px solid #eee;
+}
+.goods-items:nth-of-type(2n+1){
+    border-right:2px solid #eee;
+}
+p{
+    display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  word-break:break-all;
+  overflow:hidden;
+}
+.goods-items img{
+    width: 100%;
+}
+.goods-items dd{
+    
+}
+.detail{
+    height: 0.68rem;
+}
+#joins{
+    height: 0.6rem;
+    box-sizing: border-box;
+    padding:0 0.1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#joins .icon-gouwuche{
+    color: #f33737;
+}
